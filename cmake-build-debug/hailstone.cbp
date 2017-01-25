@@ -80,7 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/johnstivers/cs103/hailstone/main.cpp">
+		<Unit filename="/Users/johnstivers/cs103/hailstone/hailstone.cpp">
 			<Option target="hailstone"/>
 		</Unit>
 		<Unit filename="/Users/johnstivers/cs103/hailstone/CMakeLists.txt">

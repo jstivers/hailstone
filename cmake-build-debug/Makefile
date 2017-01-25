@@ -123,32 +123,32 @@ hailstone/fast:
 	$(MAKE) -f CMakeFiles/hailstone.dir/build.make CMakeFiles/hailstone.dir/build
 .PHONY : hailstone/fast
 
-main.o: main.cpp.o
+hailstone.o: hailstone.cpp.o
 
-.PHONY : main.o
+.PHONY : hailstone.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/hailstone.dir/build.make CMakeFiles/hailstone.dir/main.cpp.o
-.PHONY : main.cpp.o
+hailstone.cpp.o:
+	$(MAKE) -f CMakeFiles/hailstone.dir/build.make CMakeFiles/hailstone.dir/hailstone.cpp.o
+.PHONY : hailstone.cpp.o
 
-main.i: main.cpp.i
+hailstone.i: hailstone.cpp.i
 
-.PHONY : main.i
+.PHONY : hailstone.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/hailstone.dir/build.make CMakeFiles/hailstone.dir/main.cpp.i
-.PHONY : main.cpp.i
+hailstone.cpp.i:
+	$(MAKE) -f CMakeFiles/hailstone.dir/build.make CMakeFiles/hailstone.dir/hailstone.cpp.i
+.PHONY : hailstone.cpp.i
 
-main.s: main.cpp.s
+hailstone.s: hailstone.cpp.s
 
-.PHONY : main.s
+.PHONY : hailstone.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/hailstone.dir/build.make CMakeFiles/hailstone.dir/main.cpp.s
-.PHONY : main.cpp.s
+hailstone.cpp.s:
+	$(MAKE) -f CMakeFiles/hailstone.dir/build.make CMakeFiles/hailstone.dir/hailstone.cpp.s
+.PHONY : hailstone.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... hailstone"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... hailstone.o"
+	@echo "... hailstone.i"
+	@echo "... hailstone.s"
 .PHONY : help
 
 

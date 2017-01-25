@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/hailstone.dir/main.cpp.o"
+  "CMakeFiles/hailstone.dir/hailstone.cpp.o"
   "hailstone.pdb"
   "hailstone"
 )

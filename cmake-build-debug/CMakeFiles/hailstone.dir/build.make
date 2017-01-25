@@ -57,38 +57,38 @@ include CMakeFiles/hailstone.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/hailstone.dir/flags.make
 
-CMakeFiles/hailstone.dir/main.cpp.o: CMakeFiles/hailstone.dir/flags.make
-CMakeFiles/hailstone.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/johnstivers/cs103/hailstone/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/hailstone.dir/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hailstone.dir/main.cpp.o -c /Users/johnstivers/cs103/hailstone/main.cpp
+CMakeFiles/hailstone.dir/hailstone.cpp.o: CMakeFiles/hailstone.dir/flags.make
+CMakeFiles/hailstone.dir/hailstone.cpp.o: ../hailstone.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/johnstivers/cs103/hailstone/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/hailstone.dir/hailstone.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hailstone.dir/hailstone.cpp.o -c /Users/johnstivers/cs103/hailstone/hailstone.cpp
 
-CMakeFiles/hailstone.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hailstone.dir/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/johnstivers/cs103/hailstone/main.cpp > CMakeFiles/hailstone.dir/main.cpp.i
+CMakeFiles/hailstone.dir/hailstone.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hailstone.dir/hailstone.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/johnstivers/cs103/hailstone/hailstone.cpp > CMakeFiles/hailstone.dir/hailstone.cpp.i
 
-CMakeFiles/hailstone.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hailstone.dir/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/johnstivers/cs103/hailstone/main.cpp -o CMakeFiles/hailstone.dir/main.cpp.s
+CMakeFiles/hailstone.dir/hailstone.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hailstone.dir/hailstone.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/johnstivers/cs103/hailstone/hailstone.cpp -o CMakeFiles/hailstone.dir/hailstone.cpp.s
 
-CMakeFiles/hailstone.dir/main.cpp.o.requires:
+CMakeFiles/hailstone.dir/hailstone.cpp.o.requires:
 
-.PHONY : CMakeFiles/hailstone.dir/main.cpp.o.requires
+.PHONY : CMakeFiles/hailstone.dir/hailstone.cpp.o.requires
 
-CMakeFiles/hailstone.dir/main.cpp.o.provides: CMakeFiles/hailstone.dir/main.cpp.o.requires
-	$(MAKE) -f CMakeFiles/hailstone.dir/build.make CMakeFiles/hailstone.dir/main.cpp.o.provides.build
-.PHONY : CMakeFiles/hailstone.dir/main.cpp.o.provides
+CMakeFiles/hailstone.dir/hailstone.cpp.o.provides: CMakeFiles/hailstone.dir/hailstone.cpp.o.requires
+	$(MAKE) -f CMakeFiles/hailstone.dir/build.make CMakeFiles/hailstone.dir/hailstone.cpp.o.provides.build
+.PHONY : CMakeFiles/hailstone.dir/hailstone.cpp.o.provides
 
-CMakeFiles/hailstone.dir/main.cpp.o.provides.build: CMakeFiles/hailstone.dir/main.cpp.o
+CMakeFiles/hailstone.dir/hailstone.cpp.o.provides.build: CMakeFiles/hailstone.dir/hailstone.cpp.o
 
 
 # Object files for target hailstone
 hailstone_OBJECTS = \
-"CMakeFiles/hailstone.dir/main.cpp.o"
+"CMakeFiles/hailstone.dir/hailstone.cpp.o"
 
 # External object files for target hailstone
 hailstone_EXTERNAL_OBJECTS =
 
-hailstone: CMakeFiles/hailstone.dir/main.cpp.o
+hailstone: CMakeFiles/hailstone.dir/hailstone.cpp.o
 hailstone: CMakeFiles/hailstone.dir/build.make
 hailstone: CMakeFiles/hailstone.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/johnstivers/cs103/hailstone/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable hailstone"
@@ -99,7 +99,7 @@ CMakeFiles/hailstone.dir/build: hailstone
 
 .PHONY : CMakeFiles/hailstone.dir/build
 
-CMakeFiles/hailstone.dir/requires: CMakeFiles/hailstone.dir/main.cpp.o.requires
+CMakeFiles/hailstone.dir/requires: CMakeFiles/hailstone.dir/hailstone.cpp.o.requires
 
 .PHONY : CMakeFiles/hailstone.dir/requires
 
