@@ -3,16 +3,20 @@ using namespace std;
 int main() {
     //variables
     int input;
+    int counter = 0;
     //io
     cout<<("Enter a number: ");
     cin>>input;
     //algorithm
-    if(input % 2 == 0){
-        input = input /2;
-        cout<<input;
+    if(input != 1) {
+        do {
+            input = input % 2 == 0 ? input / 2 : (input * 3) + 1;
+            cout<<input<<(" ");
+            counter++;
+        } while (input != 1);
     }else{
-        input = (input * 3)+1;
-        cout<<input;
+        cout<<(" ");
     }
+    cout<<("\nLength: ")<<counter;
     return 0;
 }
